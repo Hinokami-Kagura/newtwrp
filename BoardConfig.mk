@@ -15,6 +15,26 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+#IMPORTANT VALUES I.G
+#recovery >> /dev/block/mmcblk0p53 >> 131072
+#system >> /dev/block/mmcblk0p59 >> 8388608
+#vendor  >> /dev/block/mmcblk0p60 >> 2097152
+#boot >> /dev/block/mmcblk0p52 >> 131072
+#cache  >> /dev/block/mmcblk0p57 >> 786432
+#dtbo >> /dev/block/mmcblk0p39 >> 16384
+#persist >> /dev/block/mmcblk0p48 >> 65536
+#userdata >> /dev/block/mmcblk0p62 >> 45866975
+#ALL ABOVE VALUES ARE 32-BIT
+#BELOW VALUES ARE 64-BIT
+#recovery >> /dev/block/mmcblk0p53 >> 67108864
+#system >> /dev/block/mmcblk0p59 >> 4294967296
+#vendor  >> /dev/block/mmcblk0p60 >> 1073741824
+#boot >> /dev/block/mmcblk0p52 >> 67108864
+#cache  >> /dev/block/mmcblk0p57 >> 402653184
+#dtbo >> /dev/block/mmcblk0p39 >> 8388608
+#persist >> /dev/block/mmcblk0p48 >> 33554432
+#userdata >> /dev/block/mmcblk0p62 >> 23483891200
+
 
 DEVICE_PATH := device/xiaomi/olivewood
 
