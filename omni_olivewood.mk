@@ -36,3 +36,5 @@ PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Xiaomi Redmi 8A Dual
 PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_RELEASE_NAME := Xiaomi Redmi 8A Dual
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
