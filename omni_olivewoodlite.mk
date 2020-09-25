@@ -30,8 +30,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := olivewood
-PRODUCT_NAME := omni_olivewood
+PRODUCT_DEVICE := olivewoodlite
+PRODUCT_NAME := omni_olivewoodlite
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Xiaomi Redmi 8A Dual
 PRODUCT_MANUFACTURER := xiaomi
