@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_olivewood-userdebug
-add_lunch_combo omni_olivewood-eng
+add_lunch_combo omni_olivewoodlite-userdebug
+add_lunch_combo omni_olivewoodlite-eng
