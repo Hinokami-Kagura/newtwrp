@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),olivewood)
+ifeq ($(TARGET_DEVICE),olivewoodlite)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
