@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_olivewood.mk
+	$(LOCAL_DIR)/omni_olivewoodlite.mk
